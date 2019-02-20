@@ -1,0 +1,14 @@
+<div class="container">
+<br>
+<br>
+    <div *ngIf="user">
+    <h2>Your Profile - {{user.firstName|uppercase}} </h2>
+   
+  <ul class="list-group">
+    <li class="list-group-item">Firstname : {{user.firstName}}</li>
+    <li class="list-group-item">Lastname : {{user.lastName}}</li>
+    <li class="list-group-item">Email : {{user.email}}</li>
+  </ul>
+</div>
+</div>
+
